@@ -1,0 +1,23 @@
+# # ============================================================
+# # Groq API Configuration
+# # ============================================================
+# GROQ_API_KEY=gsk_your_groq_api_key_here
+
+# # ============================================================
+# # Supabase PostgreSQL Configuration
+# # ============================================================
+# # You can connect using either Option 1 (Full Connection URL) 
+# # OR Option 2 (Individual parameters). Both are supported!
+
+# # OPTION 1: Supabase Direct Connection URL or Transaction Pooler URI
+# # Found in: Supabase Dashboard -> Project Settings -> Database -> Connection String -> URI
+# # (Make sure to replace [YOUR-PASSWORD] with your actual database password)
+# DATABASE_URL=postgresql://postgres:[YOUR-PASSWORD]@db.[YOUR-PROJECT-REF].supabase.co:5432/postgres?sslmode=require
+
+# # OPTION 2: Individual Connection Parameters
+# host=db.[YOUR-PROJECT-REF].supabase.co
+# port=5432
+# user=postgres
+# password=[YOUR-PASSWORD]
+# database=postgres
+# sslmode=require
